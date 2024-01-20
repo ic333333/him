@@ -1,0 +1,271 @@
+
+body {
+    background-image: url(https://uploaddeimagens.com.br/images/004/718/339/original/image.png?1705780092);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    position: absolute;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+}
+
+
+.him {
+    color: rgb(197, 197, 197);
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    position: fixed;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    top: 404px;
+    left: 677px;
+}
+
+.playlist {
+    top: 304px;
+    left: 638px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-items: center;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 374px) {
+    .playlist{
+        top: 150px;
+        left: 26%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 180px;
+    }
+    
+
+    .him{
+        top: 340px;
+        left: 165px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    .playlist{
+        top: 150px;
+        left: 29%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 180px;
+    }
+    
+
+    .him{
+        top: 340px;
+        left: 180px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 413px) {
+    .playlist{
+        top: 150px;
+        left: 29%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 180px;
+    }
+    
+
+    .him{
+        top: 340px;
+        left: 185px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 429px) {
+    .playlist{
+        top: 150px;
+        left: 29%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 180px;
+    }
+    
+
+    .him{
+        top: 340px;
+        left: 190px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 430px) and (max-width: 767px){
+    .playlist{
+        top: 150px;
+        left: 30%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 180px;
+    }
+    
+
+    .him{
+        top: 340px;
+        left: 199px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 819px) {
+    .playlist{
+        
+        top: 250px;
+        left: 31%;
+        padding: 0;
+        margin: 0;
+        
+    }
+    
+    img {
+        width: 300px;
+    }
+
+    .him{
+        top: 570px;
+        left: 46%;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+    }
+}
+
+@media screen and (min-width: 820px) and (max-width: 1023px){
+    .playlist{
+        top: 150px;
+        left: 32%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 300px;
+    }
+    
+
+    .him{
+        top: 470px;
+        left: 387px;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
+    .playlist{
+        top: 150px;
+        left: 31%;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    img {
+        width: 400px;
+    }
+    
+
+    .him{
+        top: 570px;
+        left: 475px;
+        padding: 0;
+        margin: 0;
+        font-size: 70px;
+    }
+    
+}
+
+@media screen and (min-width: 1280px) and (max-width: 2559px) {
+    .playlist{
+        top: 270px;
+        left: 570px;
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        width: 180px;
+    }
+    
+    .him{
+        top: 450px;
+        left: 640px;
+        padding: 0;
+        margin: 0;
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 2561px){
+    .playlist {
+        top: 390px;
+        left: 1180px;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        
+    }
+
+    .him {
+        top: 700px;
+        left: 1298px;
+        padding: 0;
+        margin: 0;
+        font-size: 60px;
+    }
+
+    img {
+        width: 300px;
+    }
+}
