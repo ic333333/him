@@ -226,7 +226,7 @@ img {
     
 }
 
-@media screen and (min-width: 1280px) and (max-width: 2559px) {
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
     .playlist{
         top: 270px;
         left: 570px;
@@ -244,6 +244,27 @@ img {
         padding: 0;
         margin: 0;
         font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 2559px) {
+    .playlist{
+        top: 330px;
+        left: 770px;
+        padding: 0;
+        margin: 0;
+    }
+
+    img {
+        width: 400px;
+    }
+    
+    .him{
+        top: 750px;
+        left: 935px;
+        padding: 0;
+        margin: 0;
+        font-size: 60px;
     }
 }
 
